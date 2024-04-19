@@ -1,4 +1,8 @@
 {
-"files":["index__featured-articles.liquid"],
+  "name":"JP Featured Articles",
+  "repoName":"Flex-Theme-Featured-Articles-Section",
+  "sections":["index__featured-articles.liquid"],
+  "snippets":[],
+  "assets":[],
   "content":"content"
 }
