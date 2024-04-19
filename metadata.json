@@ -1,5 +1,5 @@
 {
-  "name":"JP Featured Articles",
+  "title":"JP Featured Articles",
   "repoName":"Flex-Theme-Featured-Articles-Section",
   "sections":["index__featured-articles.liquid"],
   "snippets":[],
