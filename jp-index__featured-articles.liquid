@@ -2,7 +2,7 @@
 
 Custom section created by JadePuma
 Instructions - https://jadepuma.com/blogs/shopify-tutorials/featured-promotions-grid-layout-for-flex-theme
-Last editted - 26Jan24
+Last editted - 5/9/24
 
 {% endcomment %}
 
@@ -142,7 +142,7 @@ Last editted - 26Jan24
 {
   "name": "JP Featured articles",
   "class": "blog-posts blog-posts--1",
-  "templates":["article", "page"],
+  "templates":["index", "blog", "article", "page", "collection", "product"],
   "settings": [
     {
       "type": "text",
@@ -244,7 +244,7 @@ Last editted - 26Jan24
       "type": "select",
       "id": "width",
       "label": "Width",
-      "default": "wide",
+      "default": "standard",
       "options": [
         {
           "value": "standard",
@@ -269,7 +269,7 @@ Last editted - 26Jan24
       "type": "range",
       "id": "padding_bottom",
       "label": "Bottom spacing",
-      "default": 0,
+      "default": 20,
       "min": 0,
       "max": 80,
       "unit": "px"
