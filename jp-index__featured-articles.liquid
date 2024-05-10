@@ -38,12 +38,11 @@ Last editted - 26Jan24
               title: title,
               heading_tag: 'h2',
               context: 'featured-blog',
-              text_alignment: 'center',
+              text_alignment: section.settings.alignment,
       %}
     </div>
   {% endif %}
-
-  <div class="container">
+  <div class="container is-justify-{{ section.settings.alignment }}">
       {% for block in blocks %}
 
       {% assign article = block.settings.article_widget_select %}
@@ -234,6 +233,12 @@ Last editted - 26Jan24
     {
       "type": "header",
       "content": "Layout"
+    },
+    {
+     "type": "text_alignment",
+     "id": "alignment",
+     "label": "Alignment",
+     "default": "center"
     },
     {
       "type": "select",
