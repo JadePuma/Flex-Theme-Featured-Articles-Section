@@ -7,7 +7,6 @@ Last editted - 26Jan24
 {% endcomment %}
 
 {%- assign title = section.settings.title -%}
-{%- assign blog = blogs[section.settings.blog_widget_select] -%}
 {%- assign blocks = section.blocks -%}
 
 {% comment %} Section specific CSS {% endcomment %}
@@ -153,11 +152,6 @@ Last editted - 26Jan24
       "default": "Recent blog posts"
     },
     {
-      "type": "blog",
-      "id": "blog_widget_select",
-      "label": "Blog"
-    },
-    {
       "type": "range",
       "id": "home_page_articles",
       "label": "Articles per row",
@@ -245,7 +239,7 @@ Last editted - 26Jan24
       "type": "select",
       "id": "width",
       "label": "Width",
-      "default": "wide",
+      "default": "standard",
       "options": [
         {
           "value": "standard",
@@ -342,10 +336,7 @@ Last editted - 26Jan24
   ],
   "presets": [{
     "name": "JP Featured Articles",
-    "category": "JadePuma",
-    "settings": {
-      "blog_widget_select": ""
-    }
+    "category": "JadePuma"
   }]
 }
 
